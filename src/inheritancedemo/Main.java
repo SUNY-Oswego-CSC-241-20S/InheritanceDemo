@@ -22,6 +22,14 @@ public class Main {
             System.out.println(p.getName() + " says " + p.speak());
         }
 
+        // Use "instanceof" operator
+        if (d1 instanceof Dog) {
+            System.out.println("d1 is a Dog object reference");
+        }
+
+        if (c1 instanceof Pet) {
+            System.out.println("c1 is a Pet object reference");
+        }
 
 
 
